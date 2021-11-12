@@ -34,8 +34,10 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>Copyright &copy; <a href="https://hb-wazimu.netlify.app/">Video App</a>, {new Date().getFullYear()},
-        All Rights Reserved.</footer>
+        <footer>
+          Copyright &copy; <a href="https://hb-wazimu.netlify.app/">Wazimu</a>,{" "}
+          {new Date().getFullYear()}, All Rights Reserved.
+        </footer>
       </div>
     </>
   )

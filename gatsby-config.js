@@ -3,6 +3,7 @@ module.exports = {
     title: `Video-App`,
     description: `Simple Video App using Gatsby and Twilio API`,
     author: `wazimu`,
+    siteUrl: `https://video-app-hb.netlify.app/`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
