@@ -34,15 +34,8 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
+        <footer>Copyright &copy; <a href="https://hb-wazimu.netlify.app/">Video App</a>, {new Date().getFullYear()},
+        All Rights Reserved.</footer>
       </div>
     </>
   )

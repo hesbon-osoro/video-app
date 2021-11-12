@@ -1,9 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Video-app`,
-    description: `Video app using Twilio API`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
+    title: `Video-App`,
+    description: `Simple Video App using Gatsby and Twilio API`,
+    author: `wazimu`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
