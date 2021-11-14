@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "video-app",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A Simple Video App using React, Gatsby and Twilio API",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "wazimu <hesbonosoro1@gmail.com>",
   "dependencies": {
     "axios": "^0.24.0",
     "gatsby": "^4.1.0",
@@ -18,7 +18,10 @@
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "twilio": "^3.71.1",
+    "twilio-video": "^2.18.1",
+    "util": "^0.12.4"
   },
   "devDependencies": {
     "prettier": "^2.4.1"
@@ -38,7 +41,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/wazimuhb/video-app"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

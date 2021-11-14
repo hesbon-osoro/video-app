@@ -2,13 +2,20 @@ import React, { useState } from "react"
 import * as styles from "./login.module.css"
 import axios from "axios"
 
-const LoginForm = () => {
+const LoginForm = ({ storeToken }) => {
   const [name, setName] = useState("")
 
   const handleSubmit = async (e) => {
-  e.preventDefault()
-const result=await axios({method:'POST',url:'https://malachite-llama-9887.twil.io/create-token',data:{identity:name}})
-console.log(result)}
+    e.preventDefault()
+    const result = await axios({
+      method: "POST",
+      url: "https://malachite-llama-9887.twil.io/create-token",
+      data: { identity: name },
+    })
+    console.log(result)
+    const jwt = result.data
+    storeToken(jwt)
+  }
 
   return (
     <section className={styles.contact}>

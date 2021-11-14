@@ -17,7 +17,8 @@
   margin-bottom: 0.5rem;
 }
 .contact h3 {
-  text-transform: uppercase;text-align: center;
+  text-transform: uppercase;
+  text-align: center;
   font-size: 2rem;
   letter-spacing: 7px;
   color: var(--mainBlack);
