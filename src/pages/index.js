@@ -6,12 +6,16 @@ import Video from "../components/video"
 
 const IndexPage = () => {
   const [token, setToken] = useState(false)
-  const [name, setName]=useState(false)
+  const [name, setName] = useState(false)
 
   return (
     <Layout>
       <Seo title="Home" />
-      {!token ? <LoginForm storeToken={setToken} storeName={setName}/> : <Video token={token} name={name}/>}
+      {!token ? (
+        <LoginForm storeToken={setToken} storeName={setName} />
+      ) : (
+        <Video token={token} name={name} />
+      )}
     </Layout>
   )
 }
