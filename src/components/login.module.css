@@ -24,6 +24,13 @@
   color: var(--mainBlack);
   margin-bottom: 2rem;
 }
+.contact h6 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  color: var(--mainBlack);
+}
 .formControl,
 .submit {
   width: 100%;
