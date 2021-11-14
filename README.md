@@ -1,6 +1,6 @@
 ## Video App
 
-[![video-login.png](https://i.postimg.cc/hGt2CSwG/video-login.png)](https://postimg.cc/HrF0nCTG)
+[![video-login.png](https://i.postimg.cc/hGt2CSwG/video-login.png)](https://video-app-hb.netlify.app)
 
 [![video-app.png](https://i.postimg.cc/hvhPbT4D/video-app.png)](https://video-app-hb.netlify.app/)
 
