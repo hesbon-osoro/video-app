@@ -7,3 +7,9 @@
 [![videoapp-1.png](https://i.postimg.cc/65KyJThY/videoapp-1.png)](https://video-app-hb.netlify.app)
 
 Live streaming Video App with Twilio API
+
+## Technologies
+- React
+- Gatsby
+- Twilio API
+- GraphQL
